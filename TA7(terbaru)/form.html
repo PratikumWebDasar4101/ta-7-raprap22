@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table>
+		<form action="prosform.php" method="POST">
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>NIM</td>
+				<td>:</td>
+				<td><input type="number" name="nim"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td><input type="radio" name="jenkel" value="Laki-laki">Laki-laki<br><input type="radio" name="jenkel" value="Perempuan">Perempuan</td>
+			</tr>
+			<tr>
+				<td>Program Studi</td>
+				<td>:</td>
+				<td>
+					<select name="prog">
+						<option value="D3 Sistem Informasi">D3 Sistem Informasi</option>
+						<option value="D4 Sistem Multimedia">D4 Sistem Multimedia</option>
+						<option value="D3 Sistem Informasi Akutansi">D3 Sistem Informasi Akutansi</option>
+						<option value="D3 RKPLA">D3 RKPLA</option>
+						<option value="D3 Teknologi Komputer">D3 Teknologi Komputer</option>
+						<option value="D3 Manajemen Pemasaran">D3 Manajemen Pemasaran</option>
+						<option value="D3 Perhotelan">D3 Perhotelan</option>
+						<option value="D3 Teknik Telekomunikasi">D3 Teknik Telekomunikasi</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Fakultas</td>
+				<td>:</td>
+				<td>
+					<select name="fak">
+						<option value="FIT">FIT</option>
+						<option value="FIF">FIF</option>
+						<option value="FTE">FTE</option>
+						<option value="FRI">FRI</option>
+						<option value="FKB">FKB</option>
+						<option value="FEB">FEB</option>
+						<option value="FIK">FIK</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Asal</td>
+				<td>:</td>
+				<td><input type="text" name="asal"></td>
+			</tr>
+			<tr>
+				<td>Moto Hidup</td>
+				<td>:</td>
+				<td><textarea name="modup"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="simpan" value="simpan"></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
